@@ -2,7 +2,7 @@
 /* ROOT  */
 /* GLOBALL */
 
-html {
+/* html {
      height: 100%;
      box-sizing: border-box;
      scroll-behavior: smooth;
@@ -33,7 +33,7 @@ img {
 }
 
 /* AUTOFILL-STYLES */
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
@@ -47,7 +47,7 @@ select:-webkit-autofill:focus {
      -webkit-box-shadow: 0 0 0px 1000px #fff inset;
 }
 
-/* PLACEHOLDER-STYLES */
+/* PLACEHOLDER-STYLES *
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder,
@@ -67,7 +67,7 @@ select:-webkit-autofill:focus {
      overflow: hidden;
 }
 
-/* CONTAINER  */
+/* CONTAINER  *
 
 .container {
      width: 100%;
@@ -87,4 +87,13 @@ only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
+only screen and (min-resolution: 2dppx) {}  */
+
+.vsc-initialized .btn-success {
+     color: #fff;
+     background-color: #0a130f;
+     border-color: #0a100d;
+ }
+ .vsc-initialized .btn-success:hover{
+     background-color: blue;
+ }
