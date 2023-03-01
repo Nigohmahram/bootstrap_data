@@ -97,3 +97,21 @@ only screen and (min-resolution: 2dppx) {}  */
  .vsc-initialized .btn-success:hover{
      background-color: blue;
  } */
+ .bg-light{
+     background-color: rgb(37, 25, 25)!important;
+ }
+ .nav-link{
+     color: white!important;
+ }
+ .navbar-toggler{
+     background-color: white!important;
+ }
+
+ .navbar-toggler:hover{
+     background-color: aqua!important;
+
+ }
+ .navbar-toggler:active{
+     background-color: rgb(218, 43, 43)!important;
+     opacity: 0.5;
+ }
